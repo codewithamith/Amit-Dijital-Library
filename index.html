@@ -856,6 +856,18 @@
   <!-- Typeit -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"></script>
 
+  <script>
+    new TypeIt("#type1", {
+      speed: 120,
+      loop: true,
+      waitUntilVisible: true,
+    })
+      .type("Amit Digital Library", { delay: 400 })
+      .pause(500)
+      .delete(8)
+      .go();
+  </script>
+  
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
