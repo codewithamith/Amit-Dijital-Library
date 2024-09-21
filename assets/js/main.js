@@ -293,9 +293,19 @@ new TypeIt("#type1", {
   loop: true,
   waitUntilVisible: true,
 })
+  .type("Amit Digital Library", { delay: 400 })
+  .pause(500)
+  .delete(8)
+  .go();
+
+  // text typing
+new TypeIt("#type2", {
+  speed: 120,
+  loop: true,
+  waitUntilVisible: true,
+})
   .type("Amit Digital Library 2.0", { delay: 400 })
   .pause(500)
   .delete(10)
   .go();
-
   
