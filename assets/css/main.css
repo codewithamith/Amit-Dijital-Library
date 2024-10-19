@@ -37,17 +37,21 @@
   background-color: #20c659;
 }
 #phone{
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
   padding: 10px 20px;
-              background-color: #28a745;
-              color: white;
-              border: none;
-              border-radius: 5px;
-              font-size: 16px;
-              cursor: pointer;
-              text-decoration: none;
+  border-radius: 50px;
+  transition: 0.3s;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  border: 2px solid rgba(255, 255, 255, 0.1);
   }
   #phone:hover {
-              background-color: #218838;
+    border-color: rgba(255, 255, 255, 0.5);
           }
 /*--------------------------------------------------------------
 # General
