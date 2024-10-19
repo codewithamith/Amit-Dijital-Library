@@ -43,7 +43,7 @@
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 20px;
-  border-radius: 50px;
+  border-radius: 5px;
   transition: 0.3s;
   color: #fff;
   background: rgba(255, 255, 255, 0.1);
